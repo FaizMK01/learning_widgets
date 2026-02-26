@@ -13,7 +13,9 @@ class _MaterialWidgetState extends State<MaterialWidget> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        //overall app me scaffold black color ka hoga
         scaffoldBackgroundColor: Colors.black,
+        //overall app me app bar orange color ka hoga 
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.orange,
         ),
